@@ -1,4 +1,9 @@
 ---
+layout: project
+title: "HertzTrap: Frequency-Based Spotted Lanternfly Deterrent"
+image: "/assets/images/HertzTrap_Figure.png"
+imagealt: "HertzTrap schematic"
+excerpt: "Frequency-based deterrent for spotted lanternfly; project outline."
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
