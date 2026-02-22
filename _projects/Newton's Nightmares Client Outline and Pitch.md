@@ -53,7 +53,7 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 - **Nontarget Effects:** The trap may attract or harm beneficial insects. We will evaluate trap selectivity through observational testing.
 - **Environmental Durability:** Outdoor weather and dust may reduce performance. We will evaluate possible materials, durability, and placement strategies.
 
-## Questions for the client
+## Questions
 
 1. **What size trap would be most practical for your operations?** *Decision affected:* Sizing and the number of traps we recommend installing per acre.
 2. **Will disposing of dead flies be an issue for your farms?** *Decision affected:* Whether we need to design the trap to minimize aftereffects or provide disposal guidance.
@@ -69,4 +69,6 @@ SLF infestations prevent farms from passing health code inspections, forcing the
 
 ## Figure
 
-![HertzTrap schematic](assets/images/HertzTrap_Figure.png){ width=0.8\textwidth }
+<div style="text-align:center">
+<img src="{{ '/assets/images/HertzTrap_Figure.png' | relative_url }}" alt="HertzTrap schematic" style="max-width:80%;height:auto;" />
+</div>
