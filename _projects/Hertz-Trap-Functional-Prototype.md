@@ -1,120 +1,49 @@
 ---
 layout: project
-title: Toyota Dynamic Force 2.0 L Engine (Otto Cycle Perspective)
-description: ENGRD 2210 Thermodynamics – Analysis of the 2.0 L Dynamic Force Engine Efficiency
-image: /assets/images/Toyota-Dynamic-Force-2.0-L-Engine.jpg
+title: Hertz Trap Functional Prototype – Newton's Nightmares
+description: Design Documentation and Physical Testing of the Hertz Trap SLF Zapper
+image: /assets/images/HertzTrap_Figure.png
 ---
 
+[cite_start]Our team, Newton's Nightmares, has developed a functional prototype known as the Hertz Trap[cite: 1]. [cite_start]Our Hertz Trap device is designed to eliminate Spotted Lanternflies before they gain access to grapevines[cite: 63]. [cite_start] It achieves this by attracting the insects away from entering grapevines using 60Hz audio and then zapping them[cite: 63].
 
-We will analyze an Otto Cycle engine, Toyota’s 2.0 L Dynamic Force gasoline engine from the M20A family, which is used in modern Toyotas like the Corolla. It is a four‑cylinder engine with a relatively long stroke and a high compression ratio (about 13:1 in the regular version and about 14:1 in the hybrid version), which already hints that efficiency is a big design goal. Toyota reports that this engine can reach about 40% thermal efficiency in normal gasoline form and about 41% in the hybrid‑focused version.
-Source: [Toyota — TNGA engine overview](https://global.toyota/en/mobility/tnga/powertrain2018/engine/)
-​
+## Prototype Components and Assembly
 
-In this project, the plan is to model one cylinder of the Dynamic Force engine using the Otto Cycle, an Air Standard model covered in our thermodynamics course. The page will show simple T–s sketches, a basic system diagram for the four strokes, and the usual energy balance over one cycle: heat in, heat out, and net work. Using the ideal Otto efficiency formula with compression ratios of 14, the goal is to compare the “textbook” efficiency to the real‑world numbers (around 40–41%).
-​
+[cite_start]To build the functional prototype, we sourced a variety of specific components to handle both the structural and electrical requirements[cite: 2]:
 
-For example, the analysis will compare an engine with a lower compression ratio (around 10:1) to the Dynamic Force engine at 13:1 and 14:1 using the same efficiency formula from class, and then relate that back to Toyota’s choice to push compression ratio and adjust valve timing to effectively expand the gases more before exhausting. This connects what was learned about ideal cycles and efficiency directly to a real engine design that is on the road today.
+* [cite_start]**Structure:** We utilized an Upper Electrical Box and an Upper Lid sourced from RPL, alongside temporary legs from Amazon[cite: 2].
+* [cite_start]**Zapper Mechanism:** The trap relies on Copper Mesh (McMaster Code: 9224T55) and a Shocker PCB from Amazon[cite: 2].
+* [cite_start]**Electronics:** The system logic is managed by an Arduino Nano (McMaster Code: 1387N33), powered via a Battery Box (McMaster Code: 7712K317), and controlled with a Power Switch from Amazon[cite: 2]. * [cite_start]**Audio Attraction:** We integrated a Speaker and an Amplifier, both sourced from Amazon[cite: 2].
 
+[cite_start]The physical assembly began with an empty upper electrical box[cite: 10]. [cite_start]We attached all the electrical components; they were temporarily taped in with the materials we had, but for the final version, they will be glued[cite: 11]. [cite_start]The top cover was then mounted with screws[cite: 12]. [cite_start]For the zapping mechanism, we applied the mesh to the middle mesh structure by weaving it through and hot gluing it[cite: 13]. [cite_start]For the final version, we will make this attachment more secure[cite: 14]. [cite_start]Finally, the temporary legs were attached to the electrical box with superglue[cite: 16].
 
-## Compression Ratio
+## Design Validation Tests
 
+To validate our geometry and material choices, we subjected the prototype to a series of physical tests.
 
-The stroke-to-bore ratio is a key engine design choice that affects efficiency, power, and torque. For Toyota’s Dynamic Force 2.0 L engine, the stroke is longer than the bore (called an “undersquare” design), with a ratio around 1.18–1.2:1, which means the piston travels farther for each cycle compared to how wide the cylinder is.
-Source: [Heywood, Internal Combustion Engine Fundamentals]
+### 1. Drop Test
+[cite_start]This test evaluates the durability of the upper body of the Hertz Trap when dropped, focusing heavily on the strength of the material and the geometry of the electronics hub[cite: 18]. [cite_start]Because the major components are housed in this box, any failure to protect the electronics would compromise the entire prototype[cite: 19]. [cite_start]Our method involved dropping the trap, legs facing up, onto a grass surface[cite: 21]. [cite_start]We tested three heights: 1 ft, 2 ft, and 4 ft[cite: 22]. [cite_start]Since the legs attached are replaceable and not the final version, this test specifically focused on the stability and integrity of the upper box[cite: 22].
 
-This overall changes one important quantifiable thermodynamic trait, the compression ratio. 
+* [cite_start]**1 foot:** No damage was done to the box or the devices[cite: 24]. [cite_start]The prototype stayed in the same orientation as what we dropped it at, and we saw no change[cite: 25].
+* [cite_start]**2 feet:** Again, there was no deformation to the device, though this time it fell over when hitting the ground[cite: 27]. [cite_start]There was still no visible damage, and all the devices were safe within the electrical box[cite: 28].
+* [cite_start]**4 feet:** The box fell over, and the temporary legs we have were a bit unstable[cite: 29]. [cite_start]They moved quite a bit but didn't break off, and the electrical components were all still attached on the inside[cite: 30].
 
-$$
-r = \dfrac{V_1}{V_2}
-$$
+[cite_start]**Conclusion:** The upper box shows excellent durability at lower heights[cite: 32]. [cite_start]At 4 ft, the temporary legs exhibited instability, suggesting that the final legs should be reinforced to prevent potential breakage from higher drops or repeated impacts[cite: 32]. [cite_start]This directly informs the next prototype by emphasizing the need for stronger leg joints or additional corner reinforcement, which we plan to do[cite: 33].
 
-where:
+### 2. Box Capacity and Electrical Component Fit
+[cite_start]The purpose of this test is to determine if there is adequate space within the upper electrical box to house all the electronics we plan to install[cite: 35]. [cite_start]Since we do not know the exact electrical output or wiring needed to power our mesh correctly, we used estimates based on existing bug zappers and our planned sketches[cite: 36]. [cite_start]This tests our upgrade capabilities in case we need a bigger battery or another circuit board[cite: 37]. [cite_start]Good estimation and additional room can aid in the main function of our zapper, which is neutralizing SLFs[cite: 38]. [cite_start]We measured the approximate volume and dimensions of our current and planned components to visualize the available and needed space[cite: 39].
 
-- $V_1$ = volume at bottom dead center (BDC),
-- $V_2$ = volume at top dead center (TDC).
+* [cite_start]**Results:** The volume of our box is 96 inches, but most of the components will be sitting in an area of 16 inches, with a 1.5-inch height[cite: 40]. [cite_start]Our components (the speaker, Arduino Nano, Zapper PCB board, and battery case) take up 10 inches area-wise and sit at various heights, all under 1.5 inches[cite: 41]. [cite_start]Therefore, we have more than enough room for everything in our upper electrical box[cite: 42].
+* [cite_start]**Conclusion:** There is ample room for all current and planned electrical components[cite: 43]. [cite_start]This extra space allows for potential upgrades without redesigning the box, ensuring the next prototype can accommodate larger batteries, additional circuitry, or airflow improvements for heat management[cite: 44].
 
-The efficiency of an Otto cycle can be measured using this equation:
+### 3. Strength and Sturdiness Tests
+[cite_start]The purpose of this test is to determine the vertical loads that our zapper can withstand without breaking and/or buckling[cite: 46]. [cite_start] This is by far the most important test we can perform, as both the legs and the upper box's strength are tested[cite: 47]. [cite_start]These components need to remain static under large loads to simulate the weight imposed by farmers, machinery, and weather conditions[cite: 48]. [cite_start]This tests the geometry and materials chosen for our legs and upper electrical box, allowing us to decide on further upgrades needed[cite: 49]. 
 
-$$
-\eta = 1 - \frac{1}{r^{\gamma - 1}}
-$$
+[cite_start]We tested this by incrementally adding weights to the upper lid of the electrical box until the legs buckled, the lid broke, or the box tipped over[cite: 50]. [cite_start]Since we do not yet have our main Amazon legs, we simulated the test with temporary legs, which we expect to fail much more easily[cite: 52, 53].
 
-where:
+* [cite_start]**Weight 1 (544g):** Stable[cite: 54].
+* [cite_start]**Weight 2 (1095g):** Stable[cite: 56].
+* [cite_start]**Weight 3 (1654g):** Stable[cite: 58].
+* [cite_start]**Weight 4 (2195g):** The box started to tip over, with visible stress on the legs[cite: 59].
 
-- $r$ is the compression ratio (e.g., 14 for this engine, 10 for usual cars),
-- $\gamma$ is the heat-capacity ratio $c_p/c_v$ (≈ 1.4 for air).
-
-Let's calculate the efficiency for a typical engine with a compression ratio of about 10:1.
-
-$$
-\eta = 1 - \frac{1}{10^{1.4 - 1}} = 0.602 = 60.2%
-$$
-
-Note: This efficiency value is much higher than the real world value as this applies for an ideal Otto cycle.
-
-Now let's calculate the efficiency for Toyota's Dynamic Force 2.0 L Engine, with a compression ratio of 14:1:
-
-$$
-\eta = 1 - \frac{1}{14^{1.4 - 1}} = 0.652 = 65.2%
-$$
-
-A 5% increase in engine efficiency is monumental because even small improvements in thermal efficiency translate to significant real-world benefits in fuel economy, and emmisions. For example, a typical gas engine might have a brake thermal efficiency of around 35%, so a 5% increase (to 40%) means ( 40/35 ≈ 1.14)14% more work is extracted from the same amount of fuel. This directly reduces fuel consumption and CO₂ emissions by about 12–15%, which is a major improvement for both environmental impact and cost savings.
-Source: [mdpi - Thermal Efficiency of Internal Combustion Engines](https://www.mdpi.com/1996-1073/15/17/6222?utm_source=chatgpt.com)
-
-## T-s Diagram
-Let's visualize this using a T-s diagram to see the changes graphically.
-
-<figure style="text-align:center; margin-top:1rem;">
-	<img src="{{ '/assets/images/14to1_Otto_Ts_Diagram.jpg' | relative_url }}" alt="T–s diagram" style="max-width:100%;height:auto;border:1px solid #ddd;padding:4px;" />
-	<figcaption>Figure — Idealized Otto Cycle T-s Diagram (sketch).</figcaption>
-</figure>
-
-This outlines the primary differences between the two cycles. The red lines represent the process for the 14:1 compression cycle.
-
-State 1 - the mixture right after the intake stroke, before compression starts. The piston is at the bottom, the volume is largest, and the mixture is cool and relatively low pressure.
-
-State 2 - the end of the compression stroke. The piston has moved up, squeezing the mixture into a small volume. In the ideal model this is a reversible adiabatic compression, so entropy stays constant but temperature and pressure rise.
-
-State 3 - the moment right after combustion. Heat has been added at (approximately) constant volume, so pressure and temperature jump up while the piston is still at top dead center.
-
-State 4 - the end of the power stroke. The hot gases have expanded and pushed the piston down, doing work on the crankshaft. In the ideal model this is a reversible adiabatic expansion, so entropy stays constant while temperature and pressure drop.
-
-We can observe that the important distinction is in the Win and Wout as the temperatures of state 2 and 3 are much higher than that of the 10:1 compression cycle.
-
-## Interpretation
-
-Why does this matter? The Otto Cycle efficiency can also be written as:
-
-$$
-\eta = \dfrac{W_{\text{net}}}{Q_{in}}
-$$
-
-$$
-\eta = 1 - \dfrac{Q_{out}}{Q_{in}} = 1 - \dfrac{m c_v \left( T_3 - T_2 \right)}{m c_v \left( T_4 - T_1 \right)}
-$$
-
-$$
-\eta_{\text{otto, 10:1}} = 1 - \dfrac{T_4 - T_1}{T_3 - T_2}
-$$
-
-$$
-\eta_{\text{otto, 14:1}}' = 1 - \dfrac{T_4 - T_1}{T_3' - T_2'}
-$$
-
-It might not be clear why this higher compression ratio is better for efficiency from these equations, so we can understand it as this. For the work:
-
-$$
-W_{net} = Q_{in} - Q_{out}
-$$
-
-So when efficiency goes up (smaller Qout/Qin), net work per unit Qin increases; the higher‑compression cycle gets more work out of each unit of heat, not the same work.
-
-In other words:
-Higher compression → higher T2, T3 -> shape of the cycle changes.
-Both Qin and Qout can change, but the percentage of Qin turned into work is higher, so Wnet per unit fuel is larger for the higher-compression engine.
-
-## Summary
-
-The application of Ideal Cycles allow us to understand and pursue better devices for our society. The key lesson from the analysis is that efficiency gains are often achieved not through revolutionary changes, but through systematic optimization grounded in first-principles thermodynamics.
-
-Transportation consumes a large fraction of global energy production, and even modest efficiency gains, when multiplied across millions of vehicles operating over billions of miles, result in substantial reductions in fuel consumption, greenhouse gas emissions, and operating costs. Higher efficiency also improves energy security by reducing dependence on fuel supply chains and mitigates regulatory pressure as emissions standards become increasingly stringent worldwide.
+[cite_start]**Conclusion:** The prototype can support the weight of grapevine debris and small animals (typically 200-500 g) with a significant safety margin[cite: 60]. [cite_start]Because the temporary legs are weaker than the final design, it suggests the next prototype should include robust leg material and reinforced joints to handle higher loads and ensure long-term durability, which we plan on doing[cite: 61].
