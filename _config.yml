@@ -17,7 +17,7 @@ baseurl                  : "/fa25-portfolio-jr2434-eng" # Set this to your repo 
 url                      : "https://cornell-mae-ug.github.io"
 
 # Theme and Style
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 color_scheme: light # light/default, dark, or aqua
 
 sass:
