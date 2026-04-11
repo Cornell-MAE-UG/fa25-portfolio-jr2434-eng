@@ -2,7 +2,7 @@
 layout: project
 title: Hertz Trap Functional Prototype – Newton's Nightmares
 description: Design Documentation and Physical Testing of the Hertz Trap SLF Zapper
-image: /assets/images/HertzTrap_Figure.png
+image: /assets/images/HertzTrap_Functional_Prototype.png
 ---
 
 [cite_start]Our team, Newton's Nightmares, has developed a functional prototype known as the Hertz Trap[cite: 1]. [cite_start]Our Hertz Trap device is designed to eliminate Spotted Lanternflies before they gain access to grapevines[cite: 63]. [cite_start] It achieves this by attracting the insects away from entering grapevines using 60Hz audio and then zapping them[cite: 63].
