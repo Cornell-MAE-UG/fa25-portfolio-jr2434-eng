@@ -1,10 +1,11 @@
 ---
 layout: project
 title: "HertzTrap: Client Outline"
+permalink: /projects/hertztrap-client-outline/
 image: "assets/images/HertzTrap_Figure.png"
 imagealt: "HertzTrap schematic"
 excerpt: "Detailed content for the HertzTrap project."
-published: false
+gallery: false
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter

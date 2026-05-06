@@ -1,10 +1,11 @@
 ---
 layout: project
 title: "HertzTrap: Client Report"
+permalink: /projects/hertztrap-client-report/
 image: "assets/images/HertzTrap.jpg"
 imagealt: "HertzTrap prototype"
 excerpt: "Final client report for the HertzTrap Spotted Lanternfly deterrent."
-published: false
+gallery: false
 ---
 
 # ODP 6: Exhibit and Client Report
