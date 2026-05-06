@@ -22,6 +22,6 @@ header-includes:
 
 # HertzTrap: Frequency-Based Spotted Lanternfly Deterrent
 
-1. **[Content on this page](hertztrap-content.md)**
-2. **[Functional Prototype](Hertz-Trap-Functional-Prototype.md)**
-3. **[Client Report](client-report.md)**
+1. **[Content on this page](https://cornell-mae-ug.github.io/fa25-portfolio-jr2434-eng/projects/hertztrap-content/)**
+2. **[Functional Prototype](https://cornell-mae-ug.github.io/fa25-portfolio-jr2434-eng/projects/Hertz-Trap-Functional-Prototype/)**
+3. **[Client Report](https://cornell-mae-ug.github.io/fa25-portfolio-jr2434-eng/projects/client-report/)**
