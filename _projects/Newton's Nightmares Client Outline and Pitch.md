@@ -22,7 +22,9 @@ header-includes:
 
 # HertzTrap: Frequency-Based Spotted Lanternfly Deterrent
 
-[Content on this page](#) | [Functional Prototype](Hertz-Trap-Functional-Prototype.md) | [Client Report](Client Report.md)
+1. **[Content on this page](#)**
+2. **[Functional Prototype](Hertz-Trap-Functional-Prototype.md)**
+3. **[Client Report](Client Report.md)**
 
 **Team:** Newton's Nightmares  
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape
