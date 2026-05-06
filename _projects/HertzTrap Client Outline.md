@@ -1,9 +1,10 @@
 ---
 layout: project
-title: "HertzTrap Content"
+title: "HertzTrap: Client Outline"
 image: "assets/images/HertzTrap_Figure.png"
 imagealt: "HertzTrap schematic"
 excerpt: "Detailed content for the HertzTrap project."
+published: false
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter

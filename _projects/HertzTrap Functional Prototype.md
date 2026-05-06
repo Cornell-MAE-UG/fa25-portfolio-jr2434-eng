@@ -1,6 +1,7 @@
 ---
 layout: project
-title: Hertz Trap Functional Prototype – Newton's Nightmares
+title: "Hertz Trap: Functional Prototype"
+published: false
 description: Design Documentation and Physical Testing of the Hertz Trap SLF Zapper
 image: /assets/images/HertzTrap_Functional_Prototype.png
 ---
@@ -13,7 +14,8 @@ To build the functional prototype, we sourced a variety of specific components t
 
 * **Structure:** We utilized an Upper Electrical Box and an Upper Lid sourced from RPL, alongside temporary legs from Amazon.
 * **Zapper Mechanism:** The trap relies on Copper Mesh (McMaster Code: 9224T55) and a Shocker PCB from Amazon.
-* **Electronics:** The system logic is managed by an Arduino Nano (McMaster Code: 1387N33), powered via a Battery Box (McMaster Code: 7712K317), and controlled with a Power Switch from Amazon. * **Audio Attraction:** We integrated a Speaker and an Amplifier, both sourced from Amazon.
+* **Electronics:** The system logic is managed by an Arduino Nano (McMaster Code: 1387N33), powered via a Battery Box (McMaster Code: 7712K317), and controlled with a Power Switch from Amazon. 
+* **Audio Attraction:** We integrated a Speaker and an Amplifier, both sourced from Amazon.
 
 The physical assembly began with an empty upper electrical box. We attached all the electrical components; they were temporarily taped in with the materials we had, but for the final version, they will be glued. The top cover was then mounted with screws. For the zapping mechanism, we applied the mesh to the middle mesh structure by weaving it through and hot gluing it. For the final version, we will make this attachment more secure. Finally, the temporary legs were attached to the electrical box with superglue.
 
@@ -39,7 +41,7 @@ The purpose of this test is to determine if there is adequate space within the u
 ### 3. Strength and Sturdiness Tests
 The purpose of this test is to determine the vertical loads that our zapper can withstand without breaking and/or buckling.  This is by far the most important test we can perform, as both the legs and the upper box's strength are tested. These components need to remain static under large loads to simulate the weight imposed by farmers, machinery, and weather conditions. This tests the geometry and materials chosen for our legs and upper electrical box, allowing us to decide on further upgrades needed. 
 
-We tested this by incrementally adding weights to the upper lid of the electrical box until the legs buckled, the lid broke, or the box tipped over. Since we do not yet have our main Amazon legs, we simulated the test with temporary legs, which we expect to fail much more easily[cite: 52, 53].
+We tested this by incrementally adding weights to the upper lid of the electrical box until the legs buckled, the lid broke, or the box tipped over. Since we do not yet have our main Amazon legs, we simulated the test with temporary legs, which we expect to fail much more easily.
 
 * **Weight 1 (544g):** Stable.
 * **Weight 2 (1095g):** Stable.
@@ -48,3 +50,10 @@ We tested this by incrementally adding weights to the upper lid of the electrica
 
 **Conclusion:** The prototype can support the weight of grapevine debris and small animals (typically 200-500 g) with a significant safety margin. Because the temporary legs are weaker than the final design, it suggests the next prototype should include robust leg material and reinforced joints to handle higher loads and ensure long-term durability, which we plan on doing.
 
+## Success Criteria for the Final Build
+
+Based on our prototype testing, the device must continue to meet several key criteria to successfully protect grapevines:
+
+* **Adjustability:** The Hertz Trap device should be able to change height using its extendable legs from up to 3 ft in 6-inch increments to match the height of most grapevines. Each height position should lock securely and remain stable without tipping or collapsing. The device should be easy for a single user to adjust, and all increments should be reachable without tools or excessive effort. 
+* **Electrical Reliability:** The electrically charged mesh at the center of the trap should be able to deliver the intended voltage consistently when the upper box is powered on. This can be demonstrated safely by poking the mesh with a conductive material, such as a metal rod, to confirm that the circuit is active and continuous. The mesh should maintain full voltage without interruptions during testing, and any exposed parts should be secured to prevent accidental contact. Maintaining this reliability is a high priority because it directly affects the device's ability to neutralize targets effectively.
+* **Portability:** The trap should be lightweight and easily movable, allowing a single user to lift and reposition the device within 15 seconds without excessive effort. The total mass and dimensions of the device should allow for easy transport across uneven vineyard terrain, and the design should minimize awkward handling. These features are high priorities as they make it practical for repeated use in different locations to maximize effectiveness.
