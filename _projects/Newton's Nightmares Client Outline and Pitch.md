@@ -22,6 +22,6 @@ header-includes:
 
 # HertzTrap: Frequency-Based Spotted Lanternfly Deterrent
 
-1. **[Content on this page](HertzTrap Content.md)**
+1. **[Content on this page](hertztrap-content.md)**
 2. **[Functional Prototype](Hertz-Trap-Functional-Prototype.md)**
-3. **[Client Report](Client Report.md)**
+3. **[Client Report](client-report.md)**
