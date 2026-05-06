@@ -1,6 +1,8 @@
 ---
 layout: project
 title: "Client Report: HertzTrap Project"
+image: "assets/images/HertzTrap.jpg"
+imagealt: "HertzTrap prototype"
 excerpt: "Final client report for the HertzTrap Spotted Lanternfly deterrent."
 ---
 
