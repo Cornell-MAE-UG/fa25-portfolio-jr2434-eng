@@ -9,6 +9,10 @@ title: Junayed Ridwan
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am a 19 year old Engineer at Cornell University. I study Mechanical Engineering to evolve my skills in mechanical design, computer-aided design (CAD), and simulation analysis (CFD). I spent my time working on the submarine with CUAUV, deisigning components, manufacturing through 3D printing and machining, assembling a very carefully created autonomous submarine.
+**Marine Robotics & Systems Engineering:** I have extensive experience designing robust mechanical systems for competitive environments. My past work includes engineering torpedo and dropper actuation mechanisms for autonomous underwater vehicles, as well as prototyping main hulls and 3D-printed thruster mounts for autonomous surface vessels.
+
+**Simulation & Analysis:** I leverage industry-standard CAD and simulation software to take concepts from early models through rigorous Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD) long before they hit the manufacturing floor.
+
+**Automotive Engineering (Current & Future Work):** I am currently expanding my portfolio into the automotive sector. I am applying my background in mechanical optimization to vehicle dynamics, custom hardware design, and performance modification projects.
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
