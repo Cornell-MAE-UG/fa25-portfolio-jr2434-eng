@@ -19,3 +19,18 @@ title: Junayed Ridwan
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
 </div>
 </div>
+
+<section class="home-projects">
+<h2>Projects</h2>
+<div class="project-gallery">
+		{% assign visible_projects = site.projects | where_exp: "project", "project.gallery != false" %}
+		{% for project in visible_projects %}
+			<div class="gallery-item">
+				<a href="{{ project.url | relative_url }}">
+					<img src="{{ project.image | relative_url }}" alt="{{ project.title }}" />
+					<p>{{ project.title }}</p>
+				</a>
+			</div>
+		{% endfor %}
+</div>
+</section>
