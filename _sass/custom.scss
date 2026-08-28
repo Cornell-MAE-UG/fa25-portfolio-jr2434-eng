@@ -107,7 +107,42 @@ footer {
   display: block;
   width: 100%;
   height: auto;
-  margin: 28px 0 25px;
+  margin: 0;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.about-layout {
+  display: flex;
+  align-items: stretch;
+  gap: 28px;
+}
+
+.about-photo {
+  flex: 0 0 38%;
+  display: flex;
+}
+
+.about-photo .profile-image {
+  height: 100%;
+}
+
+.about-copy {
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+  .about-layout {
+    display: block;
+  }
+
+  .about-photo {
+    margin-top: 25px;
+  }
+
+  .about-photo .profile-image {
+    height: auto;
+  }
 }
 
 .project-image {
