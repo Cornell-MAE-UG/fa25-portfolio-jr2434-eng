@@ -2,8 +2,7 @@
 layout: project
 title: FSAE Air Intake Restrictor Analysis
 description: Transonic flow and separation analysis of a converging-diverging Venturi restrictor.
-gallery: false
-image: /assets/images/restrictor-final.jpeg
+image: /assets/images/Intake%20restrictor%202%20success.png
 ---
 
 The Air Intake Restrictor project is an engineering analysis task focused on designing and simulating a converging-diverging nozzle (Venturi tube) for Formula SAE applications. The primary goal is to limit engine power by choking airflow at a mandated 20mm throat while minimizing downstream pressure drop. My role involved modeling the geometry and conducting iterative CFD simulations to optimize fluid behavior.
