@@ -113,13 +113,13 @@ footer {
 }
 
 .about-layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(180px, 38%) minmax(0, 1fr);
   align-items: stretch;
   gap: 28px;
 }
 
 .about-photo {
-  flex: 0 0 38%;
   display: flex;
 }
 
@@ -128,7 +128,7 @@ footer {
 }
 
 .about-copy {
-  flex: 1;
+  min-width: 0;
 }
 
 @media (max-width: 640px) {
