@@ -16,7 +16,7 @@ title: Junayed Ridwan
 
 <p><strong>Automotive Engineering (Current &amp; Future Work):</strong> I am currently expanding my portfolio into the automotive sector. I am applying my background in mechanical optimization to vehicle dynamics, custom hardware design, and performance modification projects.</p>
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Explore <a href="{{ "/projects/" | relative_url }}">my projects</a>.
 </div>
 </div>
 

@@ -16,12 +16,21 @@ $text-color: #333;
   $primary-color: #925959;
   $background-color: #f6f1e0;
   $text-color: #1e0101;
+} @else if $color_scheme == 'maroon' {
+  $primary-color: #741f35;
+  $background-color: #fff8f6;
+  $text-color: #28151a;
 }
 
 
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
+}
+
+.navbar-brand {
+  font-size: 3.125rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -41,9 +50,13 @@ body {
 }
 
 header, footer {
-  padding: 10px 5px;
+  padding: 24px 5px;
   background: $primary-color;
   color: $background-color;
+}
+
+header .navbar {
+  min-height: 72px;
 }
 
 header {
@@ -58,6 +71,12 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
+}
+
+@media (max-width: 640px) {
+  .navbar-brand {
+    font-size: 2.35rem;
+  }
 }
 
 .container {
