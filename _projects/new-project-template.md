@@ -18,6 +18,8 @@ The initial baseline restrictor geometry was modeled in SolidWorks, featuring a 
 <figure style="text-align:center; margin-top:1rem;">
   <img src="{{ '/assets/images/bad-airflow-nofillet.jpg' | relative_url }}" alt="CFD plot showing shock-induced flow separation due to lack of fillets" style="max-width:100%;height:auto;" />
   <figcaption>Figure 1 - Initial 6° design showing shock-induced flow separation from sharp throat transitions.</figcaption>
+  <img src="{{ '/assets/images/Intake%20restrictor%201%20CFD%20failure.png' | relative_url }}" alt="CFD plot showing initial intake restrictor failure from flow separation" style="max-width:100%;height:auto;margin-top:1rem;" />
+  <figcaption>Figure 1b - Initial CFD failure case showing the restrictor choking and separating before the geometry was refined.</figcaption>
 </figure>
 
 ## Analysis and Simulation
