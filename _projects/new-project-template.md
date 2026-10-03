@@ -16,7 +16,7 @@ In competitive racing series, organizers mandate an intake restrictor to cap tot
 The initial baseline restrictor geometry was modeled in SolidWorks, featuring a 14° converging inlet and a highly sensitive 6° diverging diffuser. However, the first iteration lacked proper tangent fillets at the throat bottleneck. This sharp, sudden transition tripped the flow, leading to localized supersonic acceleration (Mach 1.46). A strong normal shock wave blasted the boundary layer off the wall, causing massive flow separation and destroying pressure recovery.
 
 <figure style="text-align:center; margin-top:1rem;">
-  <img src="{{ '/assets/images/bad-airflow-nofillet.jpg' | relative_url }}" alt="CFD plot showing shock-induced flow separation due to lack of fillets" style="max-width:100%;height:auto;" />
+  <img src="{{ '/assets/images/Intake%20restricor%201%20cad.png' | relative_url }}" alt="Initial CAD geometry for the restrictor with no fillets" style="max-width:100%;height:auto;" />
   <figcaption>Figure 1 - Initial 6° design showing shock-induced flow separation from sharp throat transitions.</figcaption>
   <img src="{{ '/assets/images/Intake%20restrictor%201%20CFD%20failure.png' | relative_url }}" alt="CFD plot showing initial intake restrictor failure from flow separation" style="max-width:100%;height:auto;margin-top:1rem;" />
   <figcaption>Figure 1b - Initial CFD failure case showing the restrictor choking and separating before the geometry was refined.</figcaption>
@@ -34,7 +34,7 @@ Virtual testing and iteration involved applying smooth tangent fillets to the th
 *   **Optimized Choke (-12000 Pa):** Pushed the limits to find the exact pressure differential required for Mach 1.
 
 <figure style="text-align:center; margin-top:1rem;">
-  <img src="{{ '/assets/images/reiterated-sweep.jpg' | relative_url }}" alt="CFD plot showing optimized attached transonic flow" style="max-width:100%;height:auto;" />
+  <img src="{{ '/assets/images/Intake%20restrictor%202%20success.png' | relative_url }}" alt="CFD plot showing optimized attached transonic flow" style="max-width:100%;height:auto;" />
   <figcaption>Figure 2 - Final 6° iteration achieving Mach 1 choke (354 m/s) with fully attached flow.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Virtual testing and iteration involved applying smooth tangent fillets to the th
 The final 6° iteration successfully choked the flow at exactly Mach 1 (354 m/s) while keeping the boundary layer perfectly attached throughout the diffuser. To validate why this specific geometry is the standard, a final simulation tested a steeper 10° diverging diffuser. The 10° expansion forced aggressive supersonic acceleration (410 m/s), causing total boundary layer separation and a violent asymmetric stall driven by the Coanda effect.
 
 <figure style="text-align:center; margin-top:1rem;">
-  <img src="{{ '/assets/images/10-degree-fail.jpg' | relative_url }}" alt="CFD plot showing chaotic flow separation in a 10 degree diffuser" style="max-width:100%;height:auto;" />
+  <img src="{{ '/assets/images/Intake%20restrictor%203%20CFD%20failure.png' | relative_url }}" alt="CFD plot showing chaotic flow separation in a 10 degree diffuser" style="max-width:100%;height:auto;" />
   <figcaption>Figure 3 - 10° diffuser demonstrating massive flow separation and asymmetric stall.</figcaption>
 </figure>
 
