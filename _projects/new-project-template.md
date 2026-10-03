@@ -28,6 +28,11 @@ To properly capture transonic phenomena, the internal fluid volume was extracted
 
 ## Prototype and Testing
 
+<figure style="text-align:center; margin-top:1rem;">
+  <img src="{{ '/assets/images/Intake%20restrictor%202%20cross%20section%20view.png' | relative_url }}" alt="New filleted restrictor geometry after refining the throat" style="max-width:100%;height:auto;" />
+  <figcaption>New filleted geometry used in the refined restrictor design.</figcaption>
+</figure>
+
 Virtual testing and iteration involved applying smooth tangent fillets to the throat and conducting multiple pressure boundary condition sweeps to locate the critical pressure ratio:
 *   **Part-Throttle (-5000 Pa):** Resulted in perfectly attached, but entirely subsonic flow at 267 m/s.
 *   **Near-Choke (-10000 Pa):** Accelerated the flow to the transonic boundary (331 m/s) with maintained symmetry.
