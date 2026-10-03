@@ -116,7 +116,7 @@ Both Qin and Qout can change, but the percentage of Qin turned into work is high
 ## Summary
 
 <figure style="text-align:center; margin-top:1rem;">
-  <img src="{{ '/assets/images/Toyota%20Engine.jpeg' | relative_url }}" alt="Toyota Dynamic Force engine" style="max-width:100%;height:auto;" />
+  <img src="{{ '/assets/images/Toyota%20Engine.jpeg' | relative_url }}" alt="Toyota Dynamic Force engine" style="max-width:50%;height:auto;" />
   <figcaption>Figure — Toyota Dynamic Force 2.0 L engine used in the Otto cycle analysis.</figcaption>
 </figure>
 
