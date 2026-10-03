@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "HertzTrap: Frequency-Based Spotted Lanternfly Deterrent"
-image: "assets/images/HertzTrap_Figure.png"
-imagealt: "HertzTrap schematic"
+image: "assets/images/Newton's Nightmares.jpg"
+imagealt: "Newton's Nightmares HertzTrap project photo"
 excerpt: "Frequency-based deterrent for spotted lanternfly; project outline."
 fontsize: 11pt
 geometry: margin=1in
@@ -21,6 +21,8 @@ header-includes:
 
 
 # HertzTrap: Frequency-Based Spotted Lanternfly Deterrent
+
+<p><img src="{{ '/assets/images/HertzTrap.jpg' | relative_url }}" alt="HertzTrap project image" style="max-width:100%;height:auto;" /></p>
 
 1. **[Client Outline](../hertztrap-client-outline/)**
 2. **[Functional Prototype](../hertztrap-functional-prototype/)**
