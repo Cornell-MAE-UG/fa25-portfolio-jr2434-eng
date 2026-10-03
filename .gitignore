@@ -28,7 +28,9 @@ Gemfile.lock
 *~
 
 # GitHub Actions
-.github/workflows/*
+.github/*
+!.github/workflows/
+!.github/workflows/*.yml
 
 # VS Code specific settings
 .vscode/
