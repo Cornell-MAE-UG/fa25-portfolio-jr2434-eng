@@ -115,6 +115,11 @@ Both Qin and Qout can change, but the percentage of Qin turned into work is high
 
 ## Summary
 
+<figure style="text-align:center; margin-top:1rem;">
+  <img src="{{ '/assets/images/Toyota%20Engine.jpeg' | relative_url }}" alt="Toyota Dynamic Force engine" style="max-width:100%;height:auto;" />
+  <figcaption>Figure — Toyota Dynamic Force 2.0 L engine used in the Otto cycle analysis.</figcaption>
+</figure>
+
 The application of Ideal Cycles allow us to understand and pursue better devices for our society. The key lesson from the analysis is that efficiency gains are often achieved not through revolutionary changes, but through systematic optimization grounded in first-principles thermodynamics.
 
 Transportation consumes a large fraction of global energy production, and even modest efficiency gains, when multiplied across millions of vehicles operating over billions of miles, result in substantial reductions in fuel consumption, greenhouse gas emissions, and operating costs. Higher efficiency also improves energy security by reducing dependence on fuel supply chains and mitigates regulatory pressure as emissions standards become increasingly stringent worldwide.
