@@ -224,6 +224,11 @@ footer {
   max-width: 100%;
 }
 
+.gallery-container .project-gallery {
+  grid-template-columns: minmax(0, 250px);
+  justify-content: center;
+}
+
 .gallery-item {
   text-align: center;
   transition: transform 0.3s ease;
